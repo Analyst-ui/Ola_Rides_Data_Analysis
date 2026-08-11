@@ -1,27 +1,35 @@
 # Ola_Rides_Data_Analysis
 
-### OLA Ride Booking Analysis | Excel, SQL & Power BI
+
+#### OLA Ride Booking Analysis | Excel, SQL & Power BI
 
 An end-to-end data analytics project that analyzes OLA ride booking data to uncover customer behavior, operational performance, cancellation patterns, revenue trends, and business insights through Excel, SQL, and Power BI.
+
 
 ### Project Overview
 
 This project focuses on analyzing ride booking data from OLA to understand operational efficiency, customer behavior, booking trends, and revenue performance. The project follows the complete data analytics workflow—from data cleaning in Excel, querying business problems with SQL, to building an interactive Power BI dashboard for business stakeholders.
-
 The dashboard enables decision-makers to monitor ride performance, booking status, cancellation trends, customer ratings, and revenue through interactive visualizations.
+
 
 ### Problem Statement
 
 Ride-hailing companies generate massive amounts of booking data every day. Without proper analysis, it becomes difficult to answer critical business questions such as:
 
 How many rides are successfully completed?
+
 Why are rides being cancelled?
+
 Which vehicle types generate the most revenue?
+
 Which customers contribute the highest booking value?
+
 How do ratings vary across vehicle types?
+
 Which payment methods generate the highest revenue?
 
 The objective of this project is to convert raw ride booking data into meaningful business insights that improve operational efficiency and support strategic decision-making.
+
 
 ### Dataset
 
@@ -44,44 +52,50 @@ Payment Method
 Driver Rating
 Customer Rating
 
+
 ### Tools & Technologies
+
 Microsoft Excel
-Data Cleaning
-Pivot Tables
-Pivot Charts
-Data Validation
+
 SQL
-Data Extraction
-Aggregations
-Views
-Business Queries
+
 Microsoft Power BI
-Data Modeling
-DAX Measures
-Interactive Dashboard
-KPI Cards
-Slicers
-Drill-through Analysis
+
 
 ### Methods
+
 1. Data Cleaning (Excel)
+
 Removed duplicate records
+
 Checked missing values
+
 Standardized date and text formats
+
 Corrected inconsistent values
+
 Prepared structured data for analysis
-2. SQL Analysis
+
+3. SQL Analysis
 
 Solved business questions including:
 
 Successful bookings
+
 Average ride distance
+
 Cancellation analysis
+
 Top customers
+
 Revenue analysis
+
 Customer ratings
+
 Driver ratings
+
 Payment method analysis
+
 
 The project includes SQL queries and reusable SQL views for each business question.
 
@@ -90,73 +104,123 @@ The project includes SQL queries and reusable SQL views for each business questi
 Designed an interactive dashboard consisting of:
 
 Ride Volume Over Time
+
 Booking Status Breakdown
+
 Revenue Analysis
+
 Vehicle Performance
+
 Cancellation Analysis
+
 Customer Ratings
+
 Driver Ratings
+
 Top Customers
+
 Payment Method Analysis
 
 These dashboard components are specified in the project brief.
 
 ### Dashboard Output
+
 Dashboard Pages
+
 📍 Overall Performance
+
 Total Bookings
+
 Successful Rides
+
 Ride Volume Trend
+
 Booking Status Distribution
+
 🚗 Vehicle Analysis
+
 Top Vehicle Types
+
 Ride Distance Analysis
+
 Average Ratings
+
 💰 Revenue Analysis
+
 Revenue by Payment Method
+
 Top Customers
+
 Booking Value Distribution
+
 ❌ Cancellation Analysis
+
 Customer Cancellation Reasons
+
 Driver Cancellation Reasons
+
 ⭐ Ratings Dashboard
+
 Driver Rating Distribution
+
 Customer Rating Distribution
+
 Customer vs Driver Ratings
 
+
 ### Key Insights
+
 Booking Performance
+
 Successful rides contribute the majority of bookings, while cancellations and incomplete rides highlight operational challenges.
+
 Revenue
+
 Digital payment methods account for a significant share of booking revenue.
+
 A small group of high-value customers contributes disproportionately to total revenue.
+
 Customer Behaviour
+
 Premium vehicle categories generate higher booking values.
+
 Frequent customers represent opportunities for loyalty programs.
+
 Cancellation Analysis
+
 Customer cancellations are commonly linked to driver delays or changes in plans.
+
 Driver cancellations often stem from personal or vehicle-related issues.
+
 Ratings
+
 Vehicle types with higher customer ratings indicate stronger service quality.
+
 Comparing customer and driver ratings helps identify service gaps.
 
+
 ### Business Recommendations
+
 1. Reduce Customer Cancellations
+   
 Improve driver allocation and estimated arrival times.
+
 Notify customers proactively about delays.
-2. Improve Driver Retention
+
+3. Improve Driver Retention
+
 Investigate recurring driver cancellation reasons.
 Introduce incentives for maintaining high ride completion rates.
-3. Increase Revenue
+5. Increase Revenue
 Promote digital payment methods through cashback or rewards.
 Offer personalized promotions to high-value customers.
-4. Optimize Fleet Allocation
+6. Optimize Fleet Allocation
 Deploy high-demand vehicle types in peak-demand locations.
 Use historical ride data for demand forecasting.
-5. Enhance Customer Experience
+7. Enhance Customer Experience
 Monitor low-rated rides and identify recurring service issues.
 Reward highly rated drivers to encourage quality service.
-6. Strengthen Customer Loyalty
+8. Strengthen Customer Loyalty
 Introduce rewards for frequent riders.
 Offer exclusive discounts to repeat customers.
 
