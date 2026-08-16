@@ -33,24 +33,7 @@ The objective of this project is to convert raw ride booking data into meaningfu
 
 ### Dataset
 
-The dataset contains 1 lakh (100,000) ride booking records for Bengaluru over one month and includes booking details, vehicle information, pickup and drop locations, ride status, revenue, ratings, payment methods, and ride distance.
-
-Dataset Features
-Booking ID
-Date & Time
-Booking Status
-Customer ID
-Vehicle Type
-Pickup Location
-Drop Location
-Vehicle Arrival Time (VTAT)
-Customer Arrival Time (CTAT)
-Cancellation Details
-Booking Value
-Ride Distance
-Payment Method
-Driver Rating
-Customer Rating
+The dataset contains 1,00,000+ ride booking records for Bengaluru over one month and includes booking details, vehicle information, pickup and drop locations, ride status, revenue, ratings, payment methods, and ride distance.
 
 
 ### Tools & Technologies
@@ -69,8 +52,6 @@ Microsoft Power BI
 Removed duplicate records
 
 Checked missing values
-
-Standardized date and text formats
 
 Corrected inconsistent values
 
@@ -96,7 +77,6 @@ Driver ratings
 
 Payment method analysis
 
-
 The project includes SQL queries and reusable SQL views for each business question.
 
 3. Power BI Dashboard
@@ -121,78 +101,24 @@ Top Customers
 
 Payment Method Analysis
 
-These dashboard components are specified in the project brief.
-
-### Dashboard Output
-
-Dashboard Pages
-
-📍 Overall Performance
-
-Total Bookings
-
-Successful Rides
-
-Ride Volume Trend
-
-Booking Status Distribution
-
-🚗 Vehicle Analysis
-
-Top Vehicle Types
-
-Ride Distance Analysis
-
-Average Ratings
-
-💰 Revenue Analysis
-
-Revenue by Payment Method
-
-Top Customers
-
-Booking Value Distribution
-
-❌ Cancellation Analysis
-
-Customer Cancellation Reasons
-
-Driver Cancellation Reasons
-
-⭐ Ratings Dashboard
-
-Driver Rating Distribution
-
-Customer Rating Distribution
-
-Customer vs Driver Ratings
-
 
 ### Key Insights
 
-Booking Performance
+Booking Performance:
 
 Successful rides contribute the majority of bookings, while cancellations and incomplete rides highlight operational challenges.
 
-Revenue
+Revenue:
 
 Digital payment methods account for a significant share of booking revenue.
 
-A small group of high-value customers contributes disproportionately to total revenue.
-
-Customer Behaviour
-
-Premium vehicle categories generate higher booking values.
-
-Frequent customers represent opportunities for loyalty programs.
-
-Cancellation Analysis
+Cancellation Analysis:
 
 Customer cancellations are commonly linked to driver delays or changes in plans.
 
 Driver cancellations often stem from personal or vehicle-related issues.
 
-Ratings
+Ratings:
 
 Vehicle types with higher customer ratings indicate stronger service quality.
 
@@ -201,35 +127,41 @@ Comparing customer and driver ratings helps identify service gaps.
 
 ### Business Recommendations
 
-1. Reduce Customer Cancellations
+1. Reduce Customer Cancellations:
    
-Improve driver allocation and estimated arrival times.
-
-Notify customers proactively about delays.
+Improve driver allocation and estimated arrival times. Notify customers proactively about delays.
 
 3. Improve Driver Retention
 
-Investigate recurring driver cancellation reasons.
-Introduce incentives for maintaining high ride completion rates.
-5. Increase Revenue
-Promote digital payment methods through cashback or rewards.
-Offer personalized promotions to high-value customers.
-6. Optimize Fleet Allocation
-Deploy high-demand vehicle types in peak-demand locations.
-Use historical ride data for demand forecasting.
-7. Enhance Customer Experience
+Investigate recurring driver cancellation reasons. Introduce incentives for maintaining high ride completion rates.
+
+5. Increase Revenue:
+
+Promote digital payment methods through cashback or rewards. Offer personalized promotions to high-value customers.
+
+7. Optimize Fleet Allocation
+
+Deploy high-demand vehicle types in peak-demand locations. Use historical ride data for demand forecasting.
+
+9. Enhance Customer Experience:
+
 Monitor low-rated rides and identify recurring service issues.
-Reward highly rated drivers to encourage quality service.
-8. Strengthen Customer Loyalty
-Introduce rewards for frequent riders.
-Offer exclusive discounts to repeat customers.
+
+11. Strengthen Customer Loyalty
+
+Introduce rewards for frequent riders. Offer exclusive discounts to repeat customers.
+
 
 ### How to Run This Project
+
 Clone this repository.
+
 Open the Excel workbook to review the cleaned dataset.
+
 Import the dataset into SQL and execute the provided SQL queries/views.
+
 Open the Power BI (.pbix) file.
-Refresh the data model.
+
 Use slicers and filters to explore booking trends, revenue, cancellations, and ratings interactively.
 
 ### Results & Conclusion
@@ -239,24 +171,17 @@ This project demonstrates an end-to-end data analytics workflow using Microsoft 
 By transforming raw ride booking data into an interactive dashboard, the project enables stakeholders to:
 
 Monitor operational performance
+
 Track booking success rates
+
 Analyze cancellation patterns
+
 Evaluate customer and driver satisfaction
+
 Identify high-value customers
+
 Support data-driven business decisions
 
-The combination of Excel for preparation, SQL for analysis, and Power BI for visualization provides a scalable approach to business intelligence.
-
-### Future Work
-
-Future enhancements include:
-
-Predict ride demand using Machine Learning
-Develop ride cancellation prediction models
-Build real-time dashboards with live database connectivity
-Integrate weather and traffic data for demand forecasting
-Implement customer segmentation using RFM analysis
-Create automated ETL pipelines with Power Query or cloud services
 
 ### Repository Structure
 
@@ -311,14 +236,14 @@ Nimisha Tripathy | Data Analyst
 ##### Skills
 
 Microsoft Excel
+
 SQL
+
 Microsoft Power BI
-Data Cleaning
-Data Visualization
-Dashboard Development
-Business Intelligence
+
+Python
 
 ### Contact
 
-LinkedIn:
-Email: n.tripathy200@gmail.com
+LinkedIn : linkedin.com/in/nimishatripathy
+Email : n.tripathy200@gmail.com
