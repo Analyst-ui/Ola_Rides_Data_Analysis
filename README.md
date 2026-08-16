@@ -57,7 +57,7 @@ Corrected inconsistent values
 
 Prepared structured data for analysis
 
-3. SQL Analysis
+2. SQL Analysis
 
 Solved business questions including:
 
@@ -114,15 +114,11 @@ Digital payment methods account for a significant share of booking revenue.
 
 Cancellation Analysis:
 
-Customer cancellations are commonly linked to driver delays or changes in plans.
-
-Driver cancellations often stem from personal or vehicle-related issues.
+Customer cancellations are commonly linked to driver delays or changes in plans. Driver cancellations often stem from personal or vehicle-related issues.
 
 Ratings:
 
-Vehicle types with higher customer ratings indicate stronger service quality.
-
-Comparing customer and driver ratings helps identify service gaps.
+Vehicle types with higher customer ratings indicate stronger service quality. Comparing customer and driver ratings helps identify service gaps.
 
 
 ### Business Recommendations
@@ -163,6 +159,7 @@ Import the dataset into SQL and execute the provided SQL queries/views.
 Open the Power BI (.pbix) file.
 
 Use slicers and filters to explore booking trends, revenue, cancellations, and ratings interactively.
+
 
 ### Results & Conclusion
 
@@ -243,7 +240,11 @@ Microsoft Power BI
 
 Python
 
+
 ### Contact
 
 LinkedIn : linkedin.com/in/nimishatripathy
+
 Email : n.tripathy200@gmail.com
+
+
