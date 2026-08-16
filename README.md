@@ -180,52 +180,6 @@ Identify high-value customers
 Support data-driven business decisions
 
 
-### Repository Structure
-
-OLA-Data-Analysis/
-│
-
-├── Dataset/
-
-│   └── ola_bookings.csv
-
-│
-
-├── Excel/
-
-│   └── OLA_Data_Cleaning.xlsx
-
-│
-
-├── SQL/
-
-│   ├── SQL_Queries.sql
-
-│   └── SQL_Views.sql
-
-│
-
-├── Power BI/
-
-│   └── OLA_Dashboard.pbix
-
-│
-
-├── Images/
-
-│   ├── Dashboard_Overview.png
-
-│   ├── Revenue.png
-
-│   ├── Cancellation.png
-
-│   └── Ratings.png
-
-│
-
-└── README.md
-
-
 ### Author
 
 Nimisha Tripathy | Data Analyst
